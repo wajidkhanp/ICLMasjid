@@ -299,6 +299,7 @@
 				A7621D1A1D79EFF55AF98731 /* [CP] Check Pods Manifest.lock */,
 				7EFA95F3224D67E800F9AFDD /* Sources */,
 				7EFA95F4224D67E800F9AFDD /* Frameworks */,
+				7E853F762267632D00719199 /* Increment Build */,
 				7EFA95F5224D67E800F9AFDD /* Resources */,
 				11D8EA15DCAB772CFFCA06E5 /* [CP] Embed Pods Frameworks */,
 				F77CC85102D68DC56E08091D /* [CP] Copy Pods Resources */,
@@ -416,6 +417,24 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ICL Masjid/Pods-ICL Masjid-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		7E853F762267632D00719199 /* Increment Build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Increment Build";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${INFOPLIST_FILE}\"\n";
 		};
 		7EDA15F5225D00E8007BD557 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -685,6 +704,7 @@
 			baseConfigurationReference = 206950C79A985AF4CC1B3680 /* Pods-ICL Masjid.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RQ5L2VHHR9;
 				INFOPLIST_FILE = "$(SRCROOT)/ICLMasjid/Info.plist";
@@ -695,6 +715,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wajid.ICL-Masjid";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -705,6 +726,7 @@
 			baseConfigurationReference = 2E562F28EA1446BF0B656073 /* Pods-ICL Masjid.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RQ5L2VHHR9;
 				INFOPLIST_FILE = "$(SRCROOT)/ICLMasjid/Info.plist";
@@ -715,6 +737,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wajid.ICL-Masjid";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

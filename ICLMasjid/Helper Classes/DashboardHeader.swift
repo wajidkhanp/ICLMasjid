@@ -26,7 +26,6 @@ class DashboardHeader: UICollectionViewCell, UITableViewDataSource, UITableViewD
   let titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
 
   lazy var salatTimes: [String] = Helper.app.prayerTimes()
-  let todaysDate = Helper.app.dateFormatter(date: Date())
   var salathNames: [String] = GlobalData.prayerTimeNames
   var salathImage: [String] = GlobalData.salatImages
 

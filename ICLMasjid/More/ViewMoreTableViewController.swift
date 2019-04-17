@@ -9,6 +9,10 @@
 import UIKit
 
 class ViewMoreTableViewController: UITableViewController {
+  
+  let appVersion = Bundle.main.infoDictionary!["CFBundleShortVersionString"] as? String
+  let buildNumber: String = Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion") as! String
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     view.backgroundColor = UIColor.white
@@ -21,6 +25,13 @@ class ViewMoreTableViewController: UITableViewController {
     tableView.delegate = self
     tableView.dataSource = self
     tableView.bounces = false
+    
+    let version = UILabel(frame: CGRect(x: 0, y: 0, width: tableView.frame.width, height: 20))
+    version.font = Font.small
+    version.text = "App Version: \(appVersion!)(\(buildNumber))"
+    version.textColor = UIColor.darkGray
+    version.textAlignment = .center
+    tableView.tableFooterView  = version
   }
 
   override func tableView(_: UITableView, numberOfRowsInSection _: Int) -> Int {
