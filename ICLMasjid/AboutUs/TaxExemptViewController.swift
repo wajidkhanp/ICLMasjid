@@ -45,7 +45,7 @@ class TaxExemptViewController: UIViewController {
 
     goalsDiscriptionLabel.centerXAnchor.constraint(equalTo: scrollView.centerXAnchor).isActive = true
     goalsDiscriptionLabel.topAnchor.constraint(equalTo: scrollView.topAnchor, constant: 5).isActive = true
-    goalsDiscriptionLabel.widthAnchor.constraint(equalToConstant: 380).isActive = true
+    goalsDiscriptionLabel.widthAnchor.constraint(equalToConstant: view.frame.width - 20).isActive = true
     goalsDiscriptionLabel.heightAnchor.constraint(equalToConstant: 660).isActive = true
 
     scrollView.addSubview(donationButton)

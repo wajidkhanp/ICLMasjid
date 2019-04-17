@@ -38,13 +38,13 @@ class MasjidEventsTableViewCell: UITableViewCell {
     dateLabel.widthAnchor.constraint(equalToConstant: 60).isActive = true
     dateLabel.heightAnchor.constraint(equalToConstant: 60).isActive = true
 
-    evenLabel.leadingAnchor.constraint(equalTo: marginGuide.leadingAnchor, constant: 80).isActive = true
+    evenLabel.leadingAnchor.constraint(equalTo: marginGuide.leadingAnchor, constant: 70).isActive = true
     evenLabel.topAnchor.constraint(equalTo: marginGuide.topAnchor, constant: 10).isActive = true
     evenLabel.widthAnchor.constraint(equalToConstant: contentView.frame.width).isActive = true
 
-    eventDescLabel.leadingAnchor.constraint(equalTo: marginGuide.leadingAnchor, constant: 80).isActive = true
+    eventDescLabel.leadingAnchor.constraint(equalTo: marginGuide.leadingAnchor, constant: 70).isActive = true
     eventDescLabel.topAnchor.constraint(equalTo: marginGuide.topAnchor, constant: 40).isActive = true
-    eventDescLabel.widthAnchor.constraint(equalToConstant: contentView.frame.width - 30).isActive = true
+    eventDescLabel.widthAnchor.constraint(equalToConstant: contentView.frame.width - 40).isActive = true
     eventDescLabel.bottomAnchor.constraint(equalTo: marginGuide.bottomAnchor).isActive = true
   }
 
