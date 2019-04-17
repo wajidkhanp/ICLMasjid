@@ -157,4 +157,15 @@ class Helper {
     attributedString.setAttributes([NSAttributedString.Key.font: fnt.withSize(10), NSAttributedString.Key.baselineOffset: 2], range: NSRange(location: location, length: 1))
     return attributedString
   }
+  
+  func getIslamicDate()->String {
+    var islamicDate: String = ""
+    let myDate = Date()
+    let months: [String] = ["Muharram", "Safar", "Rabiʻ I", "Rabiʻ II", "Jumada I", "Jumada II", "Rajab", "Shaʻban", "Ramadan", "Shawwal", "Dhuʻl-Qiʻdah", "Dhuʻl-Hijjah"]
+    let cal = Calendar(identifier: Calendar.Identifier.islamicUmmAlQura)
+    let date = cal.dateComponents([.year, .month, .day], from: myDate)
+    let islamicMOnth: String = months[date.month! - 1]
+    islamicDate = "\(date.day!) \(islamicMOnth), \(date.year!)"
+    return islamicDate
+  }
 }

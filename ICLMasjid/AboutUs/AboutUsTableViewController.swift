@@ -48,7 +48,7 @@ class AboutUsTableViewController: UITableViewController {
     case 2:
       navigationController?.pushViewController(TaxExemptViewController(), animated: true)
     case 3:
-      navigationController?.pushViewController(ICLProjectViewController(), animated: true)
+      navigationController?.pushViewController(ICLProjectTableViewController(), animated: true)
     case 4:
       navigationController?.pushViewController(DonationsTableViewController(), animated: true)
     default:

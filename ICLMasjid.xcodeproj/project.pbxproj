@@ -44,6 +44,11 @@
 		7E086DFA225AF6CE0076786C /* ChecklistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E086DF9225AF6CE0076786C /* ChecklistTableViewCell.swift */; };
 		7E086DFC225AF6D80076786C /* RamadanChecklistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E086DFB225AF6D80076786C /* RamadanChecklistTableViewController.swift */; };
 		7E0CC290226120CC00BF6696 /* ICLProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0CC28F226120CC00BF6696 /* ICLProjectViewController.swift */; };
+		7E853F692266B3DB00719199 /* WebviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E853F682266B3DB00719199 /* WebviewViewController.swift */; };
+		7E853F6B2266E31400719199 /* DashboardCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E853F6A2266E31400719199 /* DashboardCollectionViewController.swift */; };
+		7E853F732266E40B00719199 /* DashboardHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E853F712266E40B00719199 /* DashboardHeader.swift */; };
+		7E853F742266E40B00719199 /* DashboardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E853F722266E40B00719199 /* DashboardCell.swift */; };
+		7EC3303022663B5100274A86 /* ICLProjectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC3302F22663B5100274A86 /* ICLProjectTableViewController.swift */; };
 		7EDA15F7225D9231007BD557 /* ViewMoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA15F6225D9231007BD557 /* ViewMoreTableViewController.swift */; };
 		7EDA15F9225D9511007BD557 /* SendMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDA15F8225D9511007BD557 /* SendMessageViewController.swift */; };
 		7EFA95FB224D67E800F9AFDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFA95FA224D67E800F9AFDD /* AppDelegate.swift */; };
@@ -101,6 +106,11 @@
 		7E086DF9225AF6CE0076786C /* ChecklistTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistTableViewCell.swift; sourceTree = "<group>"; };
 		7E086DFB225AF6D80076786C /* RamadanChecklistTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RamadanChecklistTableViewController.swift; sourceTree = "<group>"; };
 		7E0CC28F226120CC00BF6696 /* ICLProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICLProjectViewController.swift; sourceTree = "<group>"; };
+		7E853F682266B3DB00719199 /* WebviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewViewController.swift; sourceTree = "<group>"; };
+		7E853F6A2266E31400719199 /* DashboardCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCollectionViewController.swift; sourceTree = "<group>"; };
+		7E853F712266E40B00719199 /* DashboardHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardHeader.swift; sourceTree = "<group>"; };
+		7E853F722266E40B00719199 /* DashboardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardCell.swift; sourceTree = "<group>"; };
+		7EC3302F22663B5100274A86 /* ICLProjectTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICLProjectTableViewController.swift; sourceTree = "<group>"; };
 		7EDA15F6225D9231007BD557 /* ViewMoreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMoreTableViewController.swift; sourceTree = "<group>"; };
 		7EDA15F8225D9511007BD557 /* SendMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessageViewController.swift; sourceTree = "<group>"; };
 		7EFA95F7224D67E800F9AFDD /* ICLMasjid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICLMasjid.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +142,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E853F6C2266E33100719199 /* AboutUs */ = {
+			isa = PBXGroup;
+			children = (
+				7EC3302F22663B5100274A86 /* ICLProjectTableViewController.swift */,
+				7E0317B12252F0A8003A8303 /* AboutUsTableViewController.swift */,
+				7E0317B32252FAB8003A8303 /* GoalsViewController.swift */,
+				7E0317B522531404003A8303 /* DonationsTableViewController.swift */,
+				7E0317B92253A15A003A8303 /* OrganizationTableViewController.swift */,
+				7E0317BD2253AF4C003A8303 /* TaxExemptViewController.swift */,
+				7E0CC28F226120CC00BF6696 /* ICLProjectViewController.swift */,
+				7E853F682266B3DB00719199 /* WebviewViewController.swift */,
+			);
+			path = AboutUs;
+			sourceTree = "<group>";
+		};
+		7E853F6D2266E34B00719199 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				7E086DD72259C9F20076786C /* EventsTableViewController.swift */,
+				7E086DD92259CD9F0076786C /* MasjidEventsTableViewController.swift */,
+				7E086DD32259C6630076786C /* IslamicDatesTableViewController.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		7E853F6E2266E36100719199 /* NAQ */ = {
+			isa = PBXGroup;
+			children = (
+				7E0317BF225460B8003A8303 /* NAQSchoolTableViewController.swift */,
+				7E086DE5225A98390076786C /* HifzProgramTableViewController.swift */,
+				7E086DEB225AAF340076786C /* SundaySchoolTableViewController.swift */,
+				7E086DEF225AC3360076786C /* PDFFormsTableViewController.swift */,
+				7E0317C522548C8D003A8303 /* PDFViewController.swift */,
+				7E086DE1225A95810076786C /* NAQHifzProgram-AuthorizationForm.pdf */,
+				7E086DE2225A95820076786C /* NAQSundaySchool-AuthorizationForm.pdf */,
+				7E086DDF225A956D0076786C /* NAQHifzProgram-RegistrationForm.pdf */,
+				7E0317C122548BF4003A8303 /* NAQSundaySchool-RegistrationForm.pdf */,
+			);
+			path = NAQ;
+			sourceTree = "<group>";
+		};
+		7E853F6F2266E38A00719199 /* Ramadan */ = {
+			isa = PBXGroup;
+			children = (
+				7E086DF1225AE80D0076786C /* RamdanTableViewController.swift */,
+				7E086DF3225AEAE10076786C /* ZakatViewController.swift */,
+				7E086DF7225AEEB90076786C /* AshraScheduleTableViewController.swift */,
+				7E086DFB225AF6D80076786C /* RamadanChecklistTableViewController.swift */,
+			);
+			path = Ramadan;
+			sourceTree = "<group>";
+		};
+		7E853F702266E3CF00719199 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				7EDA15F6225D9231007BD557 /* ViewMoreTableViewController.swift */,
+				7EDA15F8225D9511007BD557 /* SendMessageViewController.swift */,
+				7E086DDD225A3C0C0076786C /* RegisterWithUSViewController.swift */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
 		7EFA95EE224D67E800F9AFDD = {
 			isa = PBXGroup;
 			children = (
@@ -155,37 +227,18 @@
 			children = (
 				7EFA960C224D6A5B00F9AFDD /* Helper Classes */,
 				7EFA95FA224D67E800F9AFDD /* AppDelegate.swift */,
+				7E853F6A2266E31400719199 /* DashboardCollectionViewController.swift */,
 				7EFA95FC224D67E800F9AFDD /* LandingPageViewController.swift */,
 				7E0317A92251567A003A8303 /* MasjidLocationViewController.swift */,
-				7E0317B12252F0A8003A8303 /* AboutUsTableViewController.swift */,
-				7E0317B32252FAB8003A8303 /* GoalsViewController.swift */,
-				7E0317B522531404003A8303 /* DonationsTableViewController.swift */,
-				7E0317B92253A15A003A8303 /* OrganizationTableViewController.swift */,
-				7E0317BD2253AF4C003A8303 /* TaxExemptViewController.swift */,
-				7E0317BF225460B8003A8303 /* NAQSchoolTableViewController.swift */,
-				7E086DD72259C9F20076786C /* EventsTableViewController.swift */,
-				7E086DD92259CD9F0076786C /* MasjidEventsTableViewController.swift */,
-				7E086DD32259C6630076786C /* IslamicDatesTableViewController.swift */,
-				7E086DDD225A3C0C0076786C /* RegisterWithUSViewController.swift */,
-				7E086DE5225A98390076786C /* HifzProgramTableViewController.swift */,
-				7E086DEB225AAF340076786C /* SundaySchoolTableViewController.swift */,
-				7E086DEF225AC3360076786C /* PDFFormsTableViewController.swift */,
-				7E0317C522548C8D003A8303 /* PDFViewController.swift */,
-				7E086DF1225AE80D0076786C /* RamdanTableViewController.swift */,
-				7E086DF3225AEAE10076786C /* ZakatViewController.swift */,
-				7E086DF7225AEEB90076786C /* AshraScheduleTableViewController.swift */,
-				7E086DFB225AF6D80076786C /* RamadanChecklistTableViewController.swift */,
-				7EDA15F6225D9231007BD557 /* ViewMoreTableViewController.swift */,
-				7EDA15F8225D9511007BD557 /* SendMessageViewController.swift */,
-				7E0CC28F226120CC00BF6696 /* ICLProjectViewController.swift */,
+				7E853F6C2266E33100719199 /* AboutUs */,
+				7E853F6D2266E34B00719199 /* Events */,
+				7E853F6E2266E36100719199 /* NAQ */,
+				7E853F6F2266E38A00719199 /* Ramadan */,
+				7E853F702266E3CF00719199 /* More */,
 				7EFA9601224D67EA00F9AFDD /* Assets.xcassets */,
 				7EFA9603224D67EA00F9AFDD /* LaunchScreen.storyboard */,
 				7EFA9606224D67EA00F9AFDD /* Info.plist */,
 				7EFA9615224D806F00F9AFDD /* GoogleService-Info.plist */,
-				7E086DE1225A95810076786C /* NAQHifzProgram-AuthorizationForm.pdf */,
-				7E086DE2225A95820076786C /* NAQSundaySchool-AuthorizationForm.pdf */,
-				7E086DDF225A956D0076786C /* NAQHifzProgram-RegistrationForm.pdf */,
-				7E0317C122548BF4003A8303 /* NAQSundaySchool-RegistrationForm.pdf */,
 			);
 			name = "ICL Masjid";
 			path = ICLMasjid;
@@ -211,6 +264,8 @@
 				7E086DE7225A98760076786C /* NAQTableViewCell.swift */,
 				7E086DF5225AEE9E0076786C /* AshraTableViewCell.swift */,
 				7E086DF9225AF6CE0076786C /* ChecklistTableViewCell.swift */,
+				7E853F722266E40B00719199 /* DashboardCell.swift */,
+				7E853F712266E40B00719199 /* DashboardHeader.swift */,
 			);
 			path = "Helper Classes";
 			sourceTree = "<group>";
@@ -451,8 +506,10 @@
 				7E0317B42252FAB8003A8303 /* GoalsViewController.swift in Sources */,
 				7E0317AE225170BA003A8303 /* MasjidDetailsCollectionViewCell.swift in Sources */,
 				7E0317AA2251567A003A8303 /* MasjidLocationViewController.swift in Sources */,
+				7E853F6B2266E31400719199 /* DashboardCollectionViewController.swift in Sources */,
 				7EFA9610224D6A9100F9AFDD /* Font.swift in Sources */,
 				7E086DDE225A3C0C0076786C /* RegisterWithUSViewController.swift in Sources */,
+				7E853F732266E40B00719199 /* DashboardHeader.swift in Sources */,
 				7E086DE6225A98390076786C /* HifzProgramTableViewController.swift in Sources */,
 				7E086DDC2259D3020076786C /* MasjidEventsTableViewCell.swift in Sources */,
 				7E086DEC225AAF340076786C /* SundaySchoolTableViewController.swift in Sources */,
@@ -480,10 +537,13 @@
 				7E0317BC2253A181003A8303 /* OrganizationTableViewCell.swift in Sources */,
 				7E0317C622548C8D003A8303 /* PDFViewController.swift in Sources */,
 				7EFA95FB224D67E800F9AFDD /* AppDelegate.swift in Sources */,
+				7E853F692266B3DB00719199 /* WebviewViewController.swift in Sources */,
 				7E086DDA2259CD9F0076786C /* MasjidEventsTableViewController.swift in Sources */,
 				7E0317B22252F0A8003A8303 /* AboutUsTableViewController.swift in Sources */,
 				7E086DF4225AEAE10076786C /* ZakatViewController.swift in Sources */,
 				7EFA960E224D6A7F00F9AFDD /* Helper.swift in Sources */,
+				7EC3303022663B5100274A86 /* ICLProjectTableViewController.swift in Sources */,
+				7E853F742266E40B00719199 /* DashboardCell.swift in Sources */,
 				7E086DEE225AAFCE0076786C /* SundaySchool.swift in Sources */,
 				7EDA15F7225D9231007BD557 /* ViewMoreTableViewController.swift in Sources */,
 				7E0317BE2253AF4C003A8303 /* TaxExemptViewController.swift in Sources */,

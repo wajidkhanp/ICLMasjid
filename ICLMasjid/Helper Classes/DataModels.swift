@@ -118,3 +118,8 @@ struct RamadanSalatTimings {
     self.isha = isha
   }
 }
+
+struct DashboardCellContent {
+  let dashbordCellLable: String?
+  let dashbordCellImage: String?
+}
