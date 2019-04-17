@@ -10,19 +10,18 @@ import UIKit
 import WebKit
 
 class WebviewViewController: UIViewController, WKNavigationDelegate {
-  
   var webView: WKWebView!
   var navigationTitle: String = "Test Account Portal"
   var webViewURL = ""
-  
+
   override func viewDidLoad() {
     super.viewDidLoad()
     view.backgroundColor = UIColor.white
     navigationItem.title = "Masjid Donations"
-    
-    let myView = UIView(frame: CGRect(x: 0, y: 72, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.width-72))
-    self.view.addSubview(myView)
-    
+
+    let myView = UIView(frame: CGRect(x: 0, y: 72, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.width - 72))
+    view.addSubview(myView)
+
     webView = WKWebView()
     webView.navigationDelegate = self
     let url = URL(string: webViewURL)!
@@ -30,6 +29,4 @@ class WebviewViewController: UIViewController, WKNavigationDelegate {
     webView.allowsBackForwardNavigationGestures = true
     view = webView
   }
-
-  
 }

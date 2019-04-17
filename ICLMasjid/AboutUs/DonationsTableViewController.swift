@@ -46,7 +46,7 @@ class DonationsTableViewController: UITableViewController {
     cell.labelName.text = GlobalData.donationFormsList[indexPath.row]
     cell.cellImage.image = UIImage(named: "\(GlobalData.donationFormsImages[indexPath.row])")
     if indexPath.row < 3 {
-     cell.accessoryType = .disclosureIndicator
+      cell.accessoryType = .disclosureIndicator
     } else {
       cell.selectionStyle = .none
     }
@@ -56,7 +56,7 @@ class DonationsTableViewController: UITableViewController {
   override func tableView(_: UITableView, heightForRowAt _: IndexPath) -> CGFloat {
     return 60.0
   }
-  
+
   override func tableView(_: UITableView, didSelectRowAt indexPath: IndexPath) {
     switch indexPath.row {
     case 0:
@@ -75,6 +75,4 @@ class DonationsTableViewController: UITableViewController {
       print("not a valid selection")
     }
   }
-  
-  
 }

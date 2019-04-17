@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     window = UIWindow(frame: UIScreen.main.bounds)
     window?.makeKeyAndVisible()
 
-    //let controller = UINavigationController(rootViewController: LandingPageViewController())
+    // let controller = UINavigationController(rootViewController: LandingPageViewController())
     let layout = UICollectionViewFlowLayout()
     let controller = UINavigationController(rootViewController: DashboardCollectionViewController(collectionViewLayout: layout))
     window?.rootViewController = controller
