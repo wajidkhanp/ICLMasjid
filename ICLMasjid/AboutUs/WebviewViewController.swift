@@ -9,24 +9,53 @@
 import UIKit
 import WebKit
 
-class WebviewViewController: UIViewController, WKNavigationDelegate {
+class WebviewViewController: UIViewController, WKNavigationDelegate, WKUIDelegate {
   var webView: WKWebView!
-  var navigationTitle: String = "Test Account Portal"
-  var webViewURL = ""
+  var loadIndicator: UIActivityIndicatorView!
+  var webViewURL: String = ""
 
   override func viewDidLoad() {
     super.viewDidLoad()
     view.backgroundColor = UIColor.white
     navigationItem.title = "Masjid Donations"
 
-    let myView = UIView(frame: CGRect(x: 0, y: 72, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.width - 72))
-    view.addSubview(myView)
-
-    webView = WKWebView()
+    webView = WKWebView(frame: self.view.frame)
+    webView.translatesAutoresizingMaskIntoConstraints = false
+    webView.isUserInteractionEnabled = true
     webView.navigationDelegate = self
+    webView.uiDelegate = self
+    
+    view.addSubview(webView)
+    
+    loadIndicator = UIActivityIndicatorView()
+    loadIndicator.center = self.view.center
+    loadIndicator.hidesWhenStopped = true
+    loadIndicator.color = UIColor.purple
+    loadIndicator.layer.borderWidth = 4
+    
+    view.addSubview(loadIndicator)
+    
     let url = URL(string: webViewURL)!
     webView.load(URLRequest(url: url))
     webView.allowsBackForwardNavigationGestures = true
-    view = webView
+  }
+  func showActivityIndicator(show: Bool) {
+    if show {
+      loadIndicator.startAnimating()
+    } else {
+      loadIndicator.stopAnimating()
+    }
+  }
+  
+  func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+    showActivityIndicator(show: false)
+  }
+  
+  func webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
+    showActivityIndicator(show: true)
+  }
+  
+  func webView(_ webView: WKWebView, didFail navigation: WKNavigation!, withError error: Error) {
+    showActivityIndicator(show: false)
   }
 }
