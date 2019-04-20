@@ -225,7 +225,7 @@
 		7EFA95F9224D67E800F9AFDD /* ICL Masjid */ = {
 			isa = PBXGroup;
 			children = (
-				7EFA960C224D6A5B00F9AFDD /* Helper Classes */,
+				7EFA960C224D6A5B00F9AFDD /* HelperClasses */,
 				7EFA95FA224D67E800F9AFDD /* AppDelegate.swift */,
 				7E853F6A2266E31400719199 /* DashboardCollectionViewController.swift */,
 				7EFA95FC224D67E800F9AFDD /* LandingPageViewController.swift */,
@@ -244,7 +244,7 @@
 			path = ICLMasjid;
 			sourceTree = "<group>";
 		};
-		7EFA960C224D6A5B00F9AFDD /* Helper Classes */ = {
+		7EFA960C224D6A5B00F9AFDD /* HelperClasses */ = {
 			isa = PBXGroup;
 			children = (
 				7EFA9613224D6A9F00F9AFDD /* GlobalData.swift */,
@@ -267,7 +267,7 @@
 				7E853F722266E40B00719199 /* DashboardCell.swift */,
 				7E853F712266E40B00719199 /* DashboardHeader.swift */,
 			);
-			path = "Helper Classes";
+			path = HelperClasses;
 			sourceTree = "<group>";
 		};
 		98DB6CFE688F0850D708EA91 /* Frameworks */ = {
