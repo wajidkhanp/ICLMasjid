@@ -60,8 +60,8 @@ struct GlobalData {
   static let daily = ["Wake up for Suhoor", "Pray Sunnah prayers", "Pray Taraweeh at the masjid", "Read the Qur’an", "Understand the translation", "Make Dua and Dhikr", "Do Istighfar", "Do Sadaqa", "Help someone in need"]
   static let weekly = ["Visit the Elderly/Sick", "Feed the less fortunate", "Participate in Sermons", "Memorize a Surah", "Learn new Duas"]
   static let monthly = ["Finish the Qur’an", "Give Zakat", "Do Dawah", "Mend Relationships", "Become a better muslim", "Give fitra before Eid Prayer"]
-  static let viewMoreList = ["Register with US", "Feedback or Comments", "Donations to Masjid"]
-  static let viewMoreImages = ["register", "message", "donate"]
+  static let viewMoreList = ["Register with US", "Feedback or Comments", "Donations to Masjid","Connect with Facebook"]
+  static let viewMoreImages = ["register", "message", "donate","facebook"]
   static let collectionViewCellID: String = "masjid786"
   static let collectionViewHeaderID: String = "masjidheader786"
 }

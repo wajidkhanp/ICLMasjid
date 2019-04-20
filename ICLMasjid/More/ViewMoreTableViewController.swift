@@ -58,8 +58,10 @@ class ViewMoreTableViewController: UITableViewController {
       navigationController?.pushViewController(SendMessageViewController(), animated: true)
     case 2:
       navigationController?.pushViewController(DonationsTableViewController(), animated: true)
-    case 4:
-      navigationController?.pushViewController(DonationsTableViewController(), animated: true)
+    case 3:
+      let controller = WebviewViewController()
+      controller.webViewURL = "https://www.facebook.com/Islamic-Center-of-Laveen-ICL-198563370199638/"
+      navigationController?.pushViewController(controller, animated: true)
     default:
       print("not a valid selection")
     }

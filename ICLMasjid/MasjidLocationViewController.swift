@@ -61,7 +61,7 @@ class MasjidLocationViewController: UIViewController, CLLocationManagerDelegate 
     addressLable.widthAnchor.constraint(equalToConstant: view.frame.width).isActive = true
     addressLable.heightAnchor.constraint(equalToConstant: 160).isActive = true
 
-    openMapButton.topAnchor.constraint(equalTo: view.topAnchor, constant: 600).isActive = true
+    openMapButton.topAnchor.constraint(equalTo: view.topAnchor, constant: 560).isActive = true
     openMapButton.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
     openMapButton.widthAnchor.constraint(equalToConstant: view.frame.width - 40).isActive = true
     openMapButton.heightAnchor.constraint(equalToConstant: 40).isActive = true

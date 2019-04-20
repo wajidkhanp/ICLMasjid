@@ -17,7 +17,7 @@ class WebviewViewController: UIViewController, WKNavigationDelegate, WKUIDelegat
   override func viewDidLoad() {
     super.viewDidLoad()
     view.backgroundColor = UIColor.white
-    navigationItem.title = "Masjid Donations"
+    navigationItem.title = "Islamic Center of Laveen (ICL)"
 
     webView = WKWebView(frame: self.view.frame)
     webView.translatesAutoresizingMaskIntoConstraints = false

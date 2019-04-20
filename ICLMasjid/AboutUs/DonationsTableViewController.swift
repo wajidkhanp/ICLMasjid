@@ -61,7 +61,7 @@ class DonationsTableViewController: UITableViewController {
     switch indexPath.row {
     case 0:
       let controller = WebviewViewController()
-      controller.webViewURL = "https://www.paypal.com/us/for-you/transfer-money/send-money"
+      controller.webViewURL = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=108117"
       navigationController?.pushViewController(controller, animated: true)
     case 1:
       let controller = WebviewViewController()
