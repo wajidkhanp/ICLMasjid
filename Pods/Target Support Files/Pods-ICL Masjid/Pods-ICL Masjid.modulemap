@@ -1,6 +1,0 @@
-framework module Pods_ICL_Masjid {
-  umbrella header "Pods-ICL Masjid-umbrella.h"
-
-  export *
-  module * { export * }
-}

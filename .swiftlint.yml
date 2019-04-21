@@ -1,0 +1,26 @@
+disabled_rules:
+  - force_cast
+  - force_try
+  - variable_name
+  - type_name
+  - file_length
+  - type_body_length
+  - cyclomatic_complexity
+  - function_body_length
+  - valid_docs
+  - trailing_whitespace
+
+opt_in_rules:
+  - empty_string
+
+excluded:
+  - Carthage
+  - Pods
+  - SwiftLint/Common/3rdPartyLib
+
+line_length:
+    warning: 150
+    error: 200
+    ignores_function_declarations: true
+    ignores_comments: true
+    ignores_urls: true

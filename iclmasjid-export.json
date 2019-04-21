@@ -1,0 +1,140 @@
+{
+  "daily-iqma-times" : {
+    "asar" : "5:30 PM",
+    "duhar" : "1:00 PM",
+    "fazar" : "5:00 AM",
+    "isha" : "8:30 PM",
+    "magrib" : "7:05 PM"
+  },
+  "islamicDates" : {
+    "event_01" : {
+      "date" : "April   20",
+      "islamicdate" : "Saturday, 15th Shaban 1440h",
+      "name" : "Shab e Barat 2019"
+    },
+    "event_02" : {
+      "date" : "May   06",
+      "islamicdate" : "Monday, 1st Ramadan 1440h",
+      "name" : "Ramadan First Day 2019 (Estimated)"
+    },
+    "event_03" : {
+      "date" : "June  01",
+      "islamicdate" : "Saturday, 27th Ramadan 1440h",
+      "name" : "Laylat al Qadr 2019"
+    },
+    "event_04" : {
+      "date" : "June  04",
+      "islamicdate" : "Tuesday, 1st Shawwal 1440h",
+      "name" : "Eid al Fitr 2019 (Estimated)"
+    },
+    "event_05" : {
+      "date" : "Aug   08",
+      "islamicdate" : "Thursday, 7th Dhul Hijjah 1440h",
+      "name" : "Hajj 2019"
+    },
+    "event_06" : {
+      "date" : "Aug    11",
+      "islamicdate" : "Sunday, 10th Dhul Hijjah 1440h",
+      "name" : "Eid al Adha 2019"
+    },
+    "event_07" : {
+      "date" : "Aug    31",
+      "islamicdate" : "Saturday, 1st Muharram 1441h",
+      "name" : "Muharram 2019"
+    },
+    "event_08" : {
+      "date" : "Sept  08",
+      "islamicdate" : "Sunday, 9th Muharram 1441h",
+      "name" : "Ashura 2019"
+    },
+    "event_09" : {
+      "date" : "Nov   09",
+      "islamicdate" : "Saturday, 12th Rabi Al-Awwal 1441h",
+      "name" : "12 Rabi ul Awal 2019"
+    }
+  },
+  "masjid-feedback" : {
+    "-LcVx4dmZi904dRtMCU0" : {
+      "emailAddress" : "Mazin.elnahas@gmail.com",
+      "firstname" : "Mazen ",
+      "lastName" : "Elnahas ",
+      "message" : "4806279814"
+    }
+  },
+  "organization" : {
+    "board-of-director" : {
+      "member01" : {
+        "contact" : "602.237.2666",
+        "name" : "Imam Omar Shahin",
+        "position" : "Chairman"
+      },
+      "member02" : {
+        "contact" : "602.237.2666",
+        "name" : "Khalid Munir",
+        "position" : "Secretary"
+      },
+      "member03" : {
+        "contact" : "602.237.2666",
+        "name" : "Naveed Ahmed",
+        "position" : "Director of Finance"
+      },
+      "member04" : {
+        "contact" : "602.237.2666",
+        "name" : "Mohammed Lokman Hossain",
+        "position" : "Director of Operations & Maintenance"
+      },
+      "member05" : {
+        "contact" : "602.237.2666",
+        "name" : "Syed Mansoor Hussain",
+        "position" : "Director of Education"
+      },
+      "member06" : {
+        "contact" : "602.237.2666",
+        "name" : "Ibrahim A. Mohamed",
+        "position" : "Director of Religious Affairs"
+      },
+      "member07" : {
+        "contact" : "602.237.2666",
+        "name" : "Akram Monsour",
+        "position" : "Director of Public Relations"
+      }
+    },
+    "board-of-education" : {
+      "member01" : {
+        "contact" : "602.237.2666",
+        "name" : "Syed Mansoor Hussain ",
+        "position" : "Director of Education  "
+      },
+      "member02" : {
+        "contact" : "602.237.2666",
+        "name" : "Tehrir ",
+        "position" : "Administrator and Qur'an Teacher"
+      },
+      "member03" : {
+        "contact" : "602.237.2666",
+        "name" : "Nesma ",
+        "position" : "Qur'an Teacher "
+      }
+    }
+  },
+  "ramadan" : {
+    "startdate" : "05 05 2019"
+  },
+  "upcomming-events" : {
+    "event_01" : {
+      "date" : "April   20",
+      "event-description" : "ICL provides weekly Halaqa gathering on every Friday after Maghrib prayers. Our great imam/scholars provide information from Quran and Sunnah which is very beneficial for the families who attend. The food is also provided by the families who attend the Halaqa.  The Halaqa gathering and potluck is a great way to stay connected in our community.",
+      "event-name" : "Friday Night Halaka"
+    },
+    "event_02" : {
+      "date" : "May   06",
+      "event-description" : "ICL provides weekly Halaqa gathering on every Friday after Maghrib prayers. Our great imam/scholars provide information from Quran and Sunnah which is very beneficial for the families who attend. The food is also provided by the families who attend the Halaqa.  The Halaqa gathering and potluck is a great way to stay connected in our community.ICL provides weekly Halaqa gathering on every Friday after Maghrib prayers. Our great imam/scholars provide information from Quran and Sunnah which is very beneficial for the families who attend. The food is also provided by the families who attend the Halaqa.  The Halaqa gathering and potluck is a great way to stay connected in our community.",
+      "event-name" : "EID Picnic"
+    },
+    "event_03" : {
+      "date" : "May   06",
+      "event-description" : "ICL provides weekly Halaqa gathering on every Friday after Maghrib prayers. Our great imam/scholars provide information from Quran and Sunnah which is very beneficial for the families who attend. The food is also provided by the families who attend the Halaqa.  The Halaqa gathering and potluck is a great way to stay connected in our community.",
+      "event-name" : "Ramadan Taravee"
+    }
+  }
+}
