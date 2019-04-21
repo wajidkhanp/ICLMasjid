@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4500114FAA72315E7E020834 /* Pods_ICLMasjid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC94FC52192787021BDBE5C /* Pods_ICLMasjid.framework */; };
 		7E0317AA2251567A003A8303 /* MasjidLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0317A92251567A003A8303 /* MasjidLocationViewController.swift */; };
 		7E0317AC2251569A003A8303 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E0317AB2251569A003A8303 /* MapKit.framework */; };
 		7E0317AE225170BA003A8303 /* MasjidDetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0317AD225170BA003A8303 /* MasjidDetailsCollectionViewCell.swift */; };
@@ -44,6 +45,7 @@
 		7E086DFA225AF6CE0076786C /* ChecklistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E086DF9225AF6CE0076786C /* ChecklistTableViewCell.swift */; };
 		7E086DFC225AF6D80076786C /* RamadanChecklistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E086DFB225AF6D80076786C /* RamadanChecklistTableViewController.swift */; };
 		7E0CC290226120CC00BF6696 /* ICLProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0CC28F226120CC00BF6696 /* ICLProjectViewController.swift */; };
+		7E2BB714226C2F9500400520 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E2BB713226C2F9500400520 /* GoogleService-Info.plist */; };
 		7E853F692266B3DB00719199 /* WebviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E853F682266B3DB00719199 /* WebviewViewController.swift */; };
 		7E853F6B2266E31400719199 /* DashboardCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E853F6A2266E31400719199 /* DashboardCollectionViewController.swift */; };
 		7E853F732266E40B00719199 /* DashboardHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E853F712266E40B00719199 /* DashboardHeader.swift */; };
@@ -59,16 +61,12 @@
 		7EFA9610224D6A9100F9AFDD /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFA960F224D6A9100F9AFDD /* Font.swift */; };
 		7EFA9612224D6A9900F9AFDD /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFA9611224D6A9900F9AFDD /* Components.swift */; };
 		7EFA9614224D6A9F00F9AFDD /* GlobalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFA9613224D6A9F00F9AFDD /* GlobalData.swift */; };
-		7EFA9616224D806F00F9AFDD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EFA9615224D806F00F9AFDD /* GoogleService-Info.plist */; };
 		7EFA9618224D93D600F9AFDD /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFA9617224D93D600F9AFDD /* DataModels.swift */; };
 		7EFA961A224D9B2F00F9AFDD /* PrayerTimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFA9619224D9B2F00F9AFDD /* PrayerTimeTableViewCell.swift */; };
-		A5D9332AA325142BA29A3E66 /* Pods_ICL_Masjid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE870489A82471FE6EDAD71 /* Pods_ICL_Masjid.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		206950C79A985AF4CC1B3680 /* Pods-ICL Masjid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICL Masjid.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ICL Masjid/Pods-ICL Masjid.debug.xcconfig"; sourceTree = "<group>"; };
-		2E562F28EA1446BF0B656073 /* Pods-ICL Masjid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICL Masjid.release.xcconfig"; path = "Pods/Target Support Files/Pods-ICL Masjid/Pods-ICL Masjid.release.xcconfig"; sourceTree = "<group>"; };
-		4DE870489A82471FE6EDAD71 /* Pods_ICL_Masjid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ICL_Masjid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		790D3C0C38DE57B7C8C6F561 /* Pods-ICLMasjid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICLMasjid.release.xcconfig"; path = "Target Support Files/Pods-ICLMasjid/Pods-ICLMasjid.release.xcconfig"; sourceTree = "<group>"; };
 		7E0317A92251567A003A8303 /* MasjidLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasjidLocationViewController.swift; sourceTree = "<group>"; };
 		7E0317AB2251569A003A8303 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		7E0317AD225170BA003A8303 /* MasjidDetailsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasjidDetailsCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -106,10 +104,12 @@
 		7E086DF9225AF6CE0076786C /* ChecklistTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistTableViewCell.swift; sourceTree = "<group>"; };
 		7E086DFB225AF6D80076786C /* RamadanChecklistTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RamadanChecklistTableViewController.swift; sourceTree = "<group>"; };
 		7E0CC28F226120CC00BF6696 /* ICLProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICLProjectViewController.swift; sourceTree = "<group>"; };
+		7E2BB713226C2F9500400520 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7E853F682266B3DB00719199 /* WebviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewViewController.swift; sourceTree = "<group>"; };
 		7E853F6A2266E31400719199 /* DashboardCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCollectionViewController.swift; sourceTree = "<group>"; };
 		7E853F712266E40B00719199 /* DashboardHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardHeader.swift; sourceTree = "<group>"; };
 		7E853F722266E40B00719199 /* DashboardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardCell.swift; sourceTree = "<group>"; };
+		7E9B75EA226BAAC500594ED2 /* ICLMasjid.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = ICLMasjid.entitlements; path = ICLMasjid/ICLMasjid.entitlements; sourceTree = "<group>"; };
 		7EC3302F22663B5100274A86 /* ICLProjectTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICLProjectTableViewController.swift; sourceTree = "<group>"; };
 		7EDA15F6225D9231007BD557 /* ViewMoreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMoreTableViewController.swift; sourceTree = "<group>"; };
 		7EDA15F8225D9511007BD557 /* SendMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessageViewController.swift; sourceTree = "<group>"; };
@@ -123,9 +123,10 @@
 		7EFA960F224D6A9100F9AFDD /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		7EFA9611224D6A9900F9AFDD /* Components.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
 		7EFA9613224D6A9F00F9AFDD /* GlobalData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalData.swift; sourceTree = "<group>"; };
-		7EFA9615224D806F00F9AFDD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7EFA9617224D93D600F9AFDD /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
 		7EFA9619224D9B2F00F9AFDD /* PrayerTimeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeTableViewCell.swift; sourceTree = "<group>"; };
+		ADC94FC52192787021BDBE5C /* Pods_ICLMasjid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ICLMasjid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2CAB114D359FEE8F35C209B /* Pods-ICLMasjid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICLMasjid.debug.xcconfig"; path = "Target Support Files/Pods-ICLMasjid/Pods-ICLMasjid.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,7 +136,7 @@
 			files = (
 				7E0317C422548C66003A8303 /* PDFKit.framework in Frameworks */,
 				7E0317AC2251569A003A8303 /* MapKit.framework in Frameworks */,
-				A5D9332AA325142BA29A3E66 /* Pods_ICL_Masjid.framework in Frameworks */,
+				4500114FAA72315E7E020834 /* Pods_ICLMasjid.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,10 +208,11 @@
 		7EFA95EE224D67E800F9AFDD = {
 			isa = PBXGroup;
 			children = (
+				7E9B75EA226BAAC500594ED2 /* ICLMasjid.entitlements */,
 				7EFA95F9224D67E800F9AFDD /* ICL Masjid */,
 				7EFA95F8224D67E800F9AFDD /* Products */,
-				D4624B9C68B6980873BCD061 /* Pods */,
 				98DB6CFE688F0850D708EA91 /* Frameworks */,
+				B78C825B0F1CC11E8B4DFA7A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -238,7 +240,7 @@
 				7EFA9601224D67EA00F9AFDD /* Assets.xcassets */,
 				7EFA9603224D67EA00F9AFDD /* LaunchScreen.storyboard */,
 				7EFA9606224D67EA00F9AFDD /* Info.plist */,
-				7EFA9615224D806F00F9AFDD /* GoogleService-Info.plist */,
+				7E2BB713226C2F9500400520 /* GoogleService-Info.plist */,
 			);
 			name = "ICL Masjid";
 			path = ICLMasjid;
@@ -275,18 +277,18 @@
 			children = (
 				7E0317C322548C66003A8303 /* PDFKit.framework */,
 				7E0317AB2251569A003A8303 /* MapKit.framework */,
-				4DE870489A82471FE6EDAD71 /* Pods_ICL_Masjid.framework */,
+				ADC94FC52192787021BDBE5C /* Pods_ICLMasjid.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D4624B9C68B6980873BCD061 /* Pods */ = {
+		B78C825B0F1CC11E8B4DFA7A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				206950C79A985AF4CC1B3680 /* Pods-ICL Masjid.debug.xcconfig */,
-				2E562F28EA1446BF0B656073 /* Pods-ICL Masjid.release.xcconfig */,
+				D2CAB114D359FEE8F35C209B /* Pods-ICLMasjid.debug.xcconfig */,
+				790D3C0C38DE57B7C8C6F561 /* Pods-ICLMasjid.release.xcconfig */,
 			);
-			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,14 +298,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7EFA9609224D67EA00F9AFDD /* Build configuration list for PBXNativeTarget "ICLMasjid" */;
 			buildPhases = (
-				A7621D1A1D79EFF55AF98731 /* [CP] Check Pods Manifest.lock */,
+				75E9905DD10ADEB303858E30 /* [CP] Check Pods Manifest.lock */,
 				7EFA95F3224D67E800F9AFDD /* Sources */,
 				7EFA95F4224D67E800F9AFDD /* Frameworks */,
 				7E853F762267632D00719199 /* Increment Build */,
 				7EFA95F5224D67E800F9AFDD /* Resources */,
-				11D8EA15DCAB772CFFCA06E5 /* [CP] Embed Pods Frameworks */,
-				F77CC85102D68DC56E08091D /* [CP] Copy Pods Resources */,
 				7EDA15F5225D00E8007BD557 /* ShellScript */,
+				76CF2BF1C913E27FEA9CD468 /* [CP] Embed Pods Frameworks */,
+				B883FEBD226F49E4C519F835 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -327,6 +329,14 @@
 					7EFA95F6224D67E800F9AFDD = {
 						CreatedOnToolsVersion = 10.1;
 						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -359,14 +369,14 @@
 				7E086DE4225A95820076786C /* NAQSundaySchool-AuthorizationForm.pdf in Resources */,
 				7E0317C222548BF4003A8303 /* NAQSundaySchool-RegistrationForm.pdf in Resources */,
 				7EFA9602224D67EA00F9AFDD /* Assets.xcassets in Resources */,
-				7EFA9616224D806F00F9AFDD /* GoogleService-Info.plist in Resources */,
+				7E2BB714226C2F9500400520 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		11D8EA15DCAB772CFFCA06E5 /* [CP] Embed Pods Frameworks */ = {
+		75E9905DD10ADEB303858E30 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -374,7 +384,29 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ICL Masjid/Pods-ICL Masjid-frameworks.sh",
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ICLMasjid-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76CF2BF1C913E27FEA9CD468 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ICLMasjid/Pods-ICLMasjid-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Adhan/Adhan.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
 				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
@@ -415,7 +447,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ICL Masjid/Pods-ICL Masjid-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ICLMasjid/Pods-ICLMasjid-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7E853F762267632D00719199 /* Increment Build */ = {
@@ -453,7 +485,7 @@
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
-		A7621D1A1D79EFF55AF98731 /* [CP] Check Pods Manifest.lock */ = {
+		B883FEBD226F49E4C519F835 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -461,29 +493,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ICL Masjid-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F77CC85102D68DC56E08091D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ICL Masjid/Pods-ICL Masjid-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-ICLMasjid/Pods-ICLMasjid-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAnonymousAuthUI.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseEmailAuthUI.bundle",
@@ -510,7 +520,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ICL Masjid/Pods-ICL Masjid-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ICLMasjid/Pods-ICLMasjid-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -701,19 +711,20 @@
 		};
 		7EFA960A224D67EA00F9AFDD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 206950C79A985AF4CC1B3680 /* Pods-ICL Masjid.debug.xcconfig */;
+			baseConfigurationReference = D2CAB114D359FEE8F35C209B /* Pods-ICLMasjid.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ICLMasjid/ICLMasjid.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RQ5L2VHHR9;
+				DEVELOPMENT_TEAM = 796MQ7ZABX;
 				INFOPLIST_FILE = "$(SRCROOT)/ICLMasjid/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wajid.ICL-Masjid";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wajid.ICLMasjid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -723,19 +734,20 @@
 		};
 		7EFA960B224D67EA00F9AFDD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E562F28EA1446BF0B656073 /* Pods-ICL Masjid.release.xcconfig */;
+			baseConfigurationReference = 790D3C0C38DE57B7C8C6F561 /* Pods-ICLMasjid.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ICLMasjid/ICLMasjid.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RQ5L2VHHR9;
+				DEVELOPMENT_TEAM = 796MQ7ZABX;
 				INFOPLIST_FILE = "$(SRCROOT)/ICLMasjid/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wajid.ICL-Masjid";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wajid.ICLMasjid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;

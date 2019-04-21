@@ -22,8 +22,8 @@ struct GlobalData {
   static let darkOrange: UIColor = UIColor(displayP3Red: 233 / 255, green: 114 / 255, blue: 76 / 255, alpha: 1)
 
   static let segmentData = ["Prayer Time", "Iqama Time", "Juma Time"]
-  static let prayerTimeNames = ["Fazar", "Sunrise", "Duhar", "Asar", "Magrib", "Isha'a"]
-  static let iqamaTimeNames = ["Fazar", "Duhar", "Asar", "Magrib", "Isha'a"]
+  static let prayerTimeNames = ["Fajr", "Sunrise", "Duhar", "Asr", "Magrib", "Isha'a"]
+  static let iqamaTimeNames = ["Fajr", "Duhar", "Asr", "Magrib", "Isha'a"]
   static let JumaTimeNames = ["Friday Khutba:", "Prayers:"]
   static let JuneTime = ["Starts at 1:00 PM", "1:30 PM"]
   static let salatImages = ["subah-prayer", "ramadan-sunrise", "zuhar-prayer", "ramadn-azhar", "maghrib-prayer", "isha-prayer"]
