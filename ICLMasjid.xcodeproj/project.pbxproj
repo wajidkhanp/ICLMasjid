@@ -44,7 +44,6 @@
 		7E086DF8225AEEB90076786C /* AshraScheduleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E086DF7225AEEB90076786C /* AshraScheduleTableViewController.swift */; };
 		7E086DFA225AF6CE0076786C /* ChecklistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E086DF9225AF6CE0076786C /* ChecklistTableViewCell.swift */; };
 		7E086DFC225AF6D80076786C /* RamadanChecklistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E086DFB225AF6D80076786C /* RamadanChecklistTableViewController.swift */; };
-		7E0CC290226120CC00BF6696 /* ICLProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0CC28F226120CC00BF6696 /* ICLProjectViewController.swift */; };
 		7E2BB714226C2F9500400520 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E2BB713226C2F9500400520 /* GoogleService-Info.plist */; };
 		7E853F692266B3DB00719199 /* WebviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E853F682266B3DB00719199 /* WebviewViewController.swift */; };
 		7E853F6B2266E31400719199 /* DashboardCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E853F6A2266E31400719199 /* DashboardCollectionViewController.swift */; };
@@ -103,7 +102,6 @@
 		7E086DF7225AEEB90076786C /* AshraScheduleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AshraScheduleTableViewController.swift; sourceTree = "<group>"; };
 		7E086DF9225AF6CE0076786C /* ChecklistTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistTableViewCell.swift; sourceTree = "<group>"; };
 		7E086DFB225AF6D80076786C /* RamadanChecklistTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RamadanChecklistTableViewController.swift; sourceTree = "<group>"; };
-		7E0CC28F226120CC00BF6696 /* ICLProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICLProjectViewController.swift; sourceTree = "<group>"; };
 		7E2BB713226C2F9500400520 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7E853F682266B3DB00719199 /* WebviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewViewController.swift; sourceTree = "<group>"; };
 		7E853F6A2266E31400719199 /* DashboardCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCollectionViewController.swift; sourceTree = "<group>"; };
@@ -152,7 +150,6 @@
 				7E0317B522531404003A8303 /* DonationsTableViewController.swift */,
 				7E0317B92253A15A003A8303 /* OrganizationTableViewController.swift */,
 				7E0317BD2253AF4C003A8303 /* TaxExemptViewController.swift */,
-				7E0CC28F226120CC00BF6696 /* ICLProjectViewController.swift */,
 				7E853F682266B3DB00719199 /* WebviewViewController.swift */,
 			);
 			path = AboutUs;
@@ -546,7 +543,6 @@
 				7E0317B82253683C003A8303 /* GenericTableViewCell.swift in Sources */,
 				7E086DF0225AC3360076786C /* PDFFormsTableViewController.swift in Sources */,
 				7E086DD42259C6630076786C /* IslamicDatesTableViewController.swift in Sources */,
-				7E0CC290226120CC00BF6696 /* ICLProjectViewController.swift in Sources */,
 				7EFA95FD224D67E800F9AFDD /* LandingPageViewController.swift in Sources */,
 				7E086DF6225AEE9E0076786C /* AshraTableViewCell.swift in Sources */,
 				7EDA15F9225D9511007BD557 /* SendMessageViewController.swift in Sources */,

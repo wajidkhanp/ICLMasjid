@@ -12,7 +12,7 @@ import UIKit
 class ICLProjectTableViewController: UITableViewController {
   // Initialize an array for your pictures
   var picArray = [UIImage]()
-  let reference = Storage.storage().reference(forURL: "gs://icl-masjid.appspot.com/majidimages")
+  let reference = Storage.storage().reference(forURL: "gs://iclmasjid.appspot.com/majidimages")
   let imageName: [String] = ["0.JPG", "1.JPG", "2.JPG"]
 
   override func viewDidLoad() {
