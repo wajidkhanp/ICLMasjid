@@ -178,7 +178,7 @@ class SendMessageViewController: UIViewController, UITextFieldDelegate, UITextVi
     emTextFiled.returnKeyType = .done
 
     messageTextFiled.delegate = self
-    messageTextFiled.keyboardType = UIKeyboardType.decimalPad
+    messageTextFiled.keyboardType = UIKeyboardType.default
     messageTextFiled.returnKeyType = .done
   }
 
