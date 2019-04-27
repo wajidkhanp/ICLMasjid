@@ -69,7 +69,7 @@ class DashboardCollectionViewController: UICollectionViewController, UICollectio
     case 1:
       navigationController?.pushViewController(AboutUsTableViewController(), animated: true)
     case 2:
-      navigationController?.pushViewController(EventsTableViewController(), animated: true)
+      navigationController?.pushViewController(DonationsTableViewController(), animated: true)
     case 3:
       navigationController?.pushViewController(NAQSchoolTableViewController(), animated: true)
     case 4:
@@ -100,6 +100,12 @@ class DashboardCollectionViewController: UICollectionViewController, UICollectio
     let currentDate: String = Helper.app.dateFormatter(date: Date())
     headerView.mainHeadingLabel.text = "Islamic Center of Laveen"
     headerView.dateLabel.text = "Today: \(currentDate) (\(Helper.app.getIslamicDate()))"
+    let gesture:UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(viewTapped))
+    
+    headerView.announcementView.addGestureRecognizer(gesture)
     return headerView
+  }
+  @objc func viewTapped() {
+    navigationController?.pushViewController(MasjidEventsTableViewController(), animated: true)
   }
 }

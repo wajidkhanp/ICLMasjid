@@ -34,7 +34,7 @@ struct GlobalData {
 
   static let masjidDetailsCellContents = [MasjidDetailsCellContent(masjidDetailsCellLable: "Location", masjidDetailsCellImage: "map"),
                                           MasjidDetailsCellContent(masjidDetailsCellLable: "About Us", masjidDetailsCellImage: "about"),
-                                          MasjidDetailsCellContent(masjidDetailsCellLable: "Events", masjidDetailsCellImage: "events"),
+                                          MasjidDetailsCellContent(masjidDetailsCellLable: "Donate", masjidDetailsCellImage: "donateHome"),
                                           MasjidDetailsCellContent(masjidDetailsCellLable: "NAQ School", masjidDetailsCellImage: "school-1"),
                                           MasjidDetailsCellContent(masjidDetailsCellLable: "Ramadan", masjidDetailsCellImage: "ramadan"),
                                           MasjidDetailsCellContent(masjidDetailsCellLable: "More", masjidDetailsCellImage: "more")]
@@ -60,8 +60,8 @@ struct GlobalData {
   static let daily = ["Wake up for Suhoor", "Pray Sunnah prayers", "Pray Taraweeh at the masjid", "Read the Qur’an", "Understand the translation", "Make Dua and Dhikr", "Do Istighfar", "Do Sadaqa", "Help someone in need"]
   static let weekly = ["Visit the Elderly/Sick", "Feed the less fortunate", "Participate in Sermons", "Memorize a Surah", "Learn new Duas"]
   static let monthly = ["Finish the Qur’an", "Give Zakat", "Do Dawah", "Mend Relationships", "Become a better muslim", "Give fitra before Eid Prayer"]
-  static let viewMoreList = ["Register with US", "Feedback or Comments", "Donations to Masjid","Connect with Facebook"]
-  static let viewMoreImages = ["register", "message", "donate","facebook"]
+  static let viewMoreList = ["Events and Activities", "Register with US", "Feedback or Comments","Connect with Facebook"]
+  static let viewMoreImages = ["events", "register", "message","facebook"]
   static let collectionViewCellID: String = "masjid786"
   static let collectionViewHeaderID: String = "masjidheader786"
 }

@@ -30,7 +30,7 @@ class DonationsTableViewController: UITableViewController {
     label.numberOfLines = 2
     label.font = Font.large02
     label.textColor = UIColor.white
-    label.text = "Donations can be paid via "
+    label.text = "Donations can be made via "
     label.textAlignment = .center
     tempView.addSubview(label)
     tempView.backgroundColor = GlobalData.navigationMainColor

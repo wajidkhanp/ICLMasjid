@@ -13,7 +13,7 @@ class AnnouncementView: UIView {
   lazy var announcementLabel: UILabel = Components.subHeadingLabel(text: "Announcements:")
   lazy var eventname: UILabel = Components.subHeadingLabel(text: "Friday Night Halaqa")
   lazy var eventDeatils: UILabel = Components.subHeadingLabel(text: "ICL provides weekly Halaqa gathering on every Friday after Maghrib prayers. Our great imam/scholars provide information from Quran and Sunnah which is very beneficial for the families who attend. The food is also provided by the families who attend the Halaqa.  The Halaqa gathering and potluck is a great way to stay connected in our community. ")
-
+   lazy var moreLable: UILabel = Components.subHeadingLabel(text: "More...")
   override init(frame: CGRect) {
     super.init(frame: frame)
     setupUI()
@@ -27,6 +27,7 @@ class AnnouncementView: UIView {
     addSubview(announcementLabel)
     addSubview(eventname)
     addSubview(eventDeatils)
+    addSubview(moreLable)
 
     announcementLabel.attributedText = "Announcements:".getUnderLineAttributedText()
     announcementLabel.textAlignment = .justified
@@ -48,6 +49,9 @@ class AnnouncementView: UIView {
     eventDeatils.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 10).isActive = true
     eventDeatils.topAnchor.constraint(equalTo: topAnchor, constant: 30).isActive = true
     eventDeatils.widthAnchor.constraint(equalToConstant: frame.width - 20).isActive = true
+    
+    moreLable.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -10).isActive = true
+    moreLable.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true
   }
 }
 

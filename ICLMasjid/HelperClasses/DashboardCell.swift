@@ -38,7 +38,7 @@ class DashboardCell: UICollectionViewCell {
     cellLableText.centerXAnchor.constraint(equalTo: centerXAnchor, constant: 2).isActive = true
     cellLableText.centerYAnchor.constraint(equalTo: centerYAnchor, constant: 40).isActive = true
     cellImage.widthAnchor.constraint(equalToConstant: 40).isActive = true
-    cellImage.heightAnchor.constraint(equalToConstant: 40).isActive = true
+    cellImage.heightAnchor.constraint(equalToConstant: 50).isActive = true
     cellImage.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
     cellImage.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
   }

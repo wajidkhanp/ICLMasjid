@@ -53,11 +53,11 @@ class ViewMoreTableViewController: UITableViewController {
   override func tableView(_: UITableView, didSelectRowAt indexPath: IndexPath) {
     switch indexPath.row {
     case 0:
-      navigationController?.pushViewController(RegisterWithUSViewController(), animated: true)
+      navigationController?.pushViewController(EventsTableViewController(), animated: true)
     case 1:
-      navigationController?.pushViewController(SendMessageViewController(), animated: true)
+      navigationController?.pushViewController(RegisterWithUSViewController(), animated: true)
     case 2:
-      navigationController?.pushViewController(DonationsTableViewController(), animated: true)
+      navigationController?.pushViewController(SendMessageViewController(), animated: true)
     case 3:
       let controller = WebviewViewController()
       controller.webViewURL = "https://www.facebook.com/Islamic-Center-of-Laveen-ICL-198563370199638/"
