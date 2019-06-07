@@ -96,11 +96,12 @@ class DashboardCollectionViewController: UICollectionViewController, UICollectio
   }
 
   override func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
-    let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: GlobalData.collectionViewHeaderID, for: indexPath) as! DashboardHeader
+    let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind,
+                                                                     withReuseIdentifier: GlobalData.collectionViewHeaderID, for: indexPath) as! DashboardHeader
     let currentDate: String = Helper.app.dateFormatter(date: Date())
     headerView.mainHeadingLabel.text = "Islamic Center of Laveen"
     headerView.dateLabel.text = "Today: \(currentDate) (\(Helper.app.getIslamicDate()))"
-    let gesture:UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(viewTapped))
+    let gesture: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(viewTapped))
     
     headerView.announcementView.addGestureRecognizer(gesture)
     return headerView

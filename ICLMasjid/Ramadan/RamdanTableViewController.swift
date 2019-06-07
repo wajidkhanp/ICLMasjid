@@ -7,11 +7,17 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseDatabase
+import FirebaseUI
 
 class RamdanTableViewController: UITableViewController {
+  var ref: DatabaseReference!
+  var databaseHandle: DatabaseHandle!
+  var ramadanStatDate: String = ""
   let tempView = UIView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: 60))
   let label = UILabel(frame: CGRect(x: 20, y: 5, width: UIScreen.main.bounds.size.width - 30, height: 60))
-  let ramadanText = Helper.app.daysLeftforRamadan(ramadanDate: "2019-05-06")
+  var ramadanText: String = ""
 
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -26,15 +32,31 @@ class RamdanTableViewController: UITableViewController {
     tableView.delegate = self
     tableView.dataSource = self
     tableView.bounces = false
-
+    
+    // Set the database referece
+    ref = Database.database().reference().child("ramadan")
+    ref.observeSingleEvent(of: .value, with: { snapshot in
+      
+      if !snapshot.exists() { return }
+      if snapshot.childrenCount > 0 {
+        for days in snapshot.children.allObjects as! [DataSnapshot] {
+          let startDate = days.value as! String
+          self.ramadanStatDate = startDate
+          self.ramadanText = Helper.app.daysLeftforRamadan(ramadanDate:  self.ramadanStatDate)
+          self.label.text = "\(self.ramadanText)"
+        }
+        self.tableView.reloadData()
+      }
+    })
     label.numberOfLines = 2
     label.font = Font.large02
     label.textColor = UIColor.white
-    label.text = "\(ramadanText)"
+   // label.text = "\(self.ramadanText)"
     label.textAlignment = .center
     tempView.addSubview(label)
     tempView.backgroundColor = GlobalData.navigationMainColor
     tableView.tableHeaderView = tempView
+    
   }
 
   override func tableView(_: UITableView, numberOfRowsInSection _: Int) -> Int {

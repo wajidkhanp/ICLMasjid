@@ -55,7 +55,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     
     UIApplication.shared.statusBarStyle = .lightContent
     
-    RunLoop.current.run(until: NSDate(timeIntervalSinceNow: 3) as Date)
+    RunLoop.current.run(until: NSDate(timeIntervalSinceNow: 2) as Date)
+    updateBadgeCount()
     
     return true
   }

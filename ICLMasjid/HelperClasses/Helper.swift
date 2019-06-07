@@ -42,7 +42,7 @@ class Helper {
     var daysLeftMessage: String = ""
     let futureDate = ramadanDate
     let dateFormatter = DateFormatter()
-    dateFormatter.dateFormat = "yyyy-MM-dd"
+    dateFormatter.dateFormat = "dd MM yyyy"
     let formatedStartDate = dateFormatter.date(from: futureDate)
     let currentDate = Date()
     let differenceOfDate = Calendar.current.dateComponents([.day], from: currentDate, to: formatedStartDate!).day!
